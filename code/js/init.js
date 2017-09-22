@@ -11,7 +11,18 @@ $(function(){
 	  var header = $('.site-header'),
 	      scroll = $(window).scrollTop();
 
-	  if (scroll >= 50) header.addClass('shadow');
-	  else header.removeClass('shadow');
+	  if (scroll >= 50) {
+	  	header.addClass('shadow');
+	  	header.removeClass('transparent-bg');
+	  }
+	  else {
+	  	header.removeClass('shadow');
+	  }
+	});
+
+	$('.banner-section.inner-page, .site-header').hover(function() {
+		$('.site-header').removeClass('transparent-bg');
+	}, function() {
+		$('.site-header').addClass('transparent-bg');
 	});
 });

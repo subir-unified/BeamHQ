@@ -33,6 +33,7 @@ a{
 	right: 0;
 	top: 0;
 	z-index: 99;
+	background: #fff;
 	transition: all ease-in-out 300ms;
 }
 .site-header.shadow{
@@ -41,9 +42,6 @@ a{
 .site-header .navbar{
 	margin: 0;
 	border: none;
-}
-.site-header.white-bg{
-	background: #fff;
 }
 .site-header .navbar-brand{
     font-family: 'Grand Hotel', cursive;
@@ -141,6 +139,9 @@ a{
 	background: #00aeef !important;
 	color: #fff !important;
 }
+.site-header.transparent-bg{
+	background: transparent;
+}
 .site-header.transparent-bg .navbar-brand{
 	color: #fff;
 }
@@ -157,8 +158,6 @@ a{
 	border-color: #fff;
 	color: #fff !important;
 }
-
-
 
 .banner-section{
 	position: relative;
@@ -227,6 +226,17 @@ a{
 	font-weight: 300;
 	margin-top: 5px;
 	text-align: left;
+}
+.banner-section.inner-page{
+	height: 400px;
+}
+.inner-page .banner-txt-wrap .txt-inner{
+	padding-left: 160px;
+	margin: 0;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+.inner-page .banner-txt-wrap .txt-inner p{
+	font-size: 20px;
 }
 
 .info-blocks{
@@ -433,6 +443,35 @@ a{
 	object-fit: cover;
 }
 
+/* Inner Page */
+
+.products-wrap{
+	margin: 0 0 50px;
+}
+.section-tab{
+	padding: 25px 0;
+	border-bottom: 3px solid #f5f6f6;
+	text-align: center;
+}
+.section-tab ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.section-tab ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.section-tab ul li a{
+	text-transform: uppercase;
+	color: #333;
+	font-weight: 900;
+	text-decoration: none !important;
+}
+.section-tab ul li a:hover,
+.section-tab ul li.active a{
+	color: #b2e0f7;
+}
 
 
 

@@ -141,6 +141,23 @@ a{
 	background: #00aeef !important;
 	color: #fff !important;
 }
+.site-header.transparent-bg .navbar-brand{
+	color: #fff;
+}
+.site-header.transparent-bg .navbar-nav > li > a{
+	color: #fff !important;
+}
+.site-header.transparent-bg .navbar-nav > li > a:hover{
+	color: #75c7f0 !important;
+}
+.site-header.transparent-bg .nav-login > a{
+	border-color: #fff;
+}
+.site-header.transparent-bg .navbar-nav > li.nav-login > a{
+	border-color: #fff;
+	color: #fff !important;
+}
+
 
 
 .banner-section{

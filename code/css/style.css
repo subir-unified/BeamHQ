@@ -207,6 +207,7 @@ a{
 	font-size: 18px;
 	font-weight: 700;
 	color: #fff;
+	width: 350px;
 }
 .banner-txt-wrap .form-wrap .form-control::-moz-placeholder,
 .newsletter-section .form-wrap .form-control::-moz-placeholder{
@@ -472,6 +473,50 @@ a{
 .section-tab ul li.active a{
 	color: #b2e0f7;
 }
+.pr-sections .pr-block{
+	padding: 50px 0;
+	border-bottom: 3px solid #f5f6f6;
+}
+.pr-sections .pr-block:last-child{
+	border: none;
+}
+.pr-sections .pr-txt{
+	max-width: 420px;
+	margin-top: 50px;
+}
+.pr-sections .pr-txt h4{
+	font-weight: 900;
+	color: #b2e0f7;
+}
+.pr-sections .pr-txt h2{
+	font-size: 40px;
+	line-height: 50px;
+	margin-bottom: 25px;
+}
+.pr-sections .pr-txt p{
+	color: #818285;
+	line-height: 24px;
+}
+.pr-sections .pr-txt p a{
+	color: #b2e0f7;
+	text-decoration: underline;
+}
+.pr-sections .pr-txt p a:hover{
+	color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -27,16 +27,20 @@ a{
 	background: #3baee6;
 	border-color: #249dd8;
 }
-.site-header .navbar{
-	margin: 0;
-	border: none;
-}
 .site-header{
 	position: fixed;
 	left: 0;
 	right: 0;
 	top: 0;
 	z-index: 99;
+	transition: all ease-in-out 300ms;
+}
+.site-header.shadow{
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.site-header .navbar{
+	margin: 0;
+	border: none;
 }
 .site-header.white-bg{
 	background: #fff;
@@ -187,6 +191,19 @@ a{
 	font-size: 18px;
 	font-weight: 700;
 	color: #fff;
+}
+.banner-txt-wrap .form-wrap .form-control::-moz-placeholder,
+.newsletter-section .form-wrap .form-control::-moz-placeholder{
+  color: #fff;
+  opacity: 1;
+}
+.banner-txt-wrap .form-wrap .form-control:-ms-input-placeholder,
+.newsletter-section .form-wrap .form-control:-ms-input-placeholder{
+  color: #fff;
+}
+.banner-txt-wrap .form-wrap .form-control::-webkit-input-placeholder,
+.newsletter-section .form-wrap .form-control::-webkit-input-placeholder{
+  color: #fff;
 }
 .banner-txt-wrap .form-wrap .from-msg{
 	font-size: 12px;

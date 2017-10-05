@@ -13,16 +13,16 @@ $(function(){
 
 	  if (scroll >= 50) {
 	  	header.addClass('shadow');
-	  	header.removeClass('transparent-bg');
+	  	//header.removeClass('transparent-bg');
 	  }
 	  else {
 	  	header.removeClass('shadow');
 	  }
 	});
 
-	$('.banner-section.inner-page, .site-header').hover(function() {
-		$('.site-header').removeClass('transparent-bg');
-	}, function() {
-		$('.site-header').addClass('transparent-bg');
-	});
+	// $('.banner-section.inner-page, .site-header').hover(function() {
+	// 	$('.site-header').removeClass('transparent-bg');
+	// }, function() {
+	// 	$('.site-header').addClass('transparent-bg');
+	// });
 });

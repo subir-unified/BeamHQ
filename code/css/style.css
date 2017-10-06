@@ -202,10 +202,10 @@ a{
 .banner-txt-wrap .txt-inner{
 	max-width: 560px;
 	margin: auto;
-	padding-top: 100px;
 }
 .banner-txt-wrap .txt-inner h1{
 	font-size: 50px;
+	margin: 0;
 }
 .banner-txt-wrap .form-wrap{
 	margin-top: 30px;
@@ -474,25 +474,43 @@ a{
 	padding: 25px 0;
 	border-bottom: 3px solid #f5f6f6;
 	text-align: center;
+	background: #fff;
+	transition: all ease-in-out 200ms;
 }
-.section-tab ul{
+.fixed-sec-tab{
+	padding-top: 69px;
+}
+.fixed-sec-tab .section-tab{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 67px;
+	z-index: 9;
+}
+.section-tab .nav{
 	padding: 0;
 	margin: 0;
-	list-style: none;
 }
-.section-tab ul li{
+.section-tab .nav a{
 	display: inline-block;
-	margin: 0 20px;
-}
-.section-tab ul li a{
+	background: none !important;
 	text-transform: uppercase;
 	color: #333;
 	font-weight: 900;
 	text-decoration: none !important;
+	padding: 0 10px;
+	margin: 0 20px;
+	letter-spacing: 1px;
 }
-.section-tab ul li a:hover,
-.section-tab ul li.active a{
+.section-tab .nav a:hover,
+.section-tab .nav a.active,
+.section-tab .nav a:focus{
 	color: #b2e0f7;
+}
+
+.pr-sections{
+	max-width: 950px;
+	margin: auto;
 }
 .pr-sections .pr-block{
 	padding: 50px 0;
@@ -502,12 +520,16 @@ a{
 	border: none;
 }
 .pr-sections .pr-txt{
-	max-width: 420px;
+	max-width: 500px;
+}
+.pr-sections #capture .pr-txt,
+.pr-sections #integrations .pr-txt{
 	margin-top: 50px;
 }
 .pr-sections .pr-txt h4{
-	font-weight: 900;
-	color: #b2e0f7;
+	font-size: 20px;
+	font-weight: 500;
+	color: #a2a5a9;
 }
 .pr-sections .pr-txt h2{
 	font-size: 40px;
@@ -518,14 +540,20 @@ a{
 	color: #818285;
 	line-height: 24px;
 }
-.pr-sections .pr-txt p a{
+.pr-sections .pr-txt .btn{
 	color: #b2e0f7;
-	text-decoration: underline;
+	border: 2px solid #b2e0f7;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	letter-spacing: 2px;
+	margin-top: 20px;
 }
 .pr-sections .pr-txt p a:hover{
 	color: #333;
 }
-
+.pr-img-01{
+	max-width: 220px;
+}
 
 /* Pricing */
 
@@ -691,6 +719,9 @@ a{
 	border: 1px solid #75c7f0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.15);
 }
+.col-block:last-child{
+	margin-bottom: 0;
+}
 .col-block .bk-header{
 	background: #f2f2f2;
 	padding: 15px 20px;
@@ -785,27 +816,102 @@ a{
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	margin-bottom: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.col-block .vid-cols .vid-meta .user-thumb{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 10px;
+}
+.col-block .vid-cols .vid-meta .user-thumb img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 100%;
+}
+.col-block .vid-cols .vid-meta .user-name{
+	float: left;
+	margin-top: 5px;
+}
+.col-block .vid-cols .vid-meta a{
+	color: #75c7f0;
+}
+.col-block .vid-cols .vid-meta a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+.col-block .vid-cols .vid-meta .vid-view{
+	line-height: 15px;
+	padding-left: 10px;
+	margin-left: 10px;
+	border-left: 1px solid #ccc;
+	margin-top: 8px;
+	font-size: 12px;
+	opacity: 0.5;
+}
+.faq-wrap h2{
+	margin: 0 0 30px;
+}
+#faqAccordion {
+	max-width: 1050px;
+	margin: auto;
+}
+#faqAccordion .question-toggle{
+	cursor: pointer;
+	position: relative;
+}
+#faqAccordion .question-toggle:before{
+	font-family: 'FontAwesome';
+	content: "\f0d7";
+	position: absolute;
+	left: 0;
+	top: 8px;
+	color: #75c7f0;
+}
+#faqAccordion .question-toggle.collapsed:before{
+	content: "\f0da";
+}
+#faqAccordion .panel-body{
+	color: #939598;
+	border-top: none !important;
+	padding-top: 0;
+}
+.action-wrap{
+	background: #75c7f0;
+	color: #fff;
+	padding: 50px 0;
+	margin: 50px 0;
+}
+.action-wrap .heading{
+	font-weight: 300;
+	margin: 0 0 30px;
+	text-transform: lowercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+.action-wrap .heading strong{
+	text-transform: uppercase;
+}
+.action-wrap .btn{
+	font-size: 18px;
+	border-radius: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 15px 50px;
+	margin: 0 5px;
+	box-shadow: 3px 3px 0px rgba(0,0,0,0.1);
+}
+.btn-white{
+	background: #fff;
+	color: #75c7f0;
+}
+.btn-dark{
+	background: #333;
+	color: #fff !important;
+}
+.btn-dark:hover{
+	color: #75c7f0 !important;
+}
 
 
 

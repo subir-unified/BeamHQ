@@ -781,7 +781,11 @@ a{
 	height: 100%;
 	object-fit: cover;
 }
-
+.col-block .vid-cols .vid-title{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
 
 
 

@@ -1128,7 +1128,10 @@ a{
 	color: #00aeef;
 }
 
+.videoSales-video-slider .slider-thumbs{margin-top: 10px;}
+.videoSales-video-slider .slider-thumbs .swiper-slide{ width: 33.33%; }
 
+.videoSales-video-slider .slider-thumbs .swiper-wrapper{transform: translate3d(0, 0px, 0px) !important;}
 
 
 

@@ -63,13 +63,17 @@ if($('.section-tab').length > 0){
 	}
 
 
+});
+
+$(document).ready(function(){
+
 $('.counter').counterUp({
-    delay: 40,
-    time: 2000
+    delay: 20,
+    time: 1000
 });
 
-
 });
+
 
 $(document).ready(function(){
 
@@ -95,7 +99,7 @@ $(document).ready(function(){
 })
 
 
-$(document).ready(function(){
+/*$(document).ready(function(){
 
     var swiper = new Swiper('.videoSales-video-slider .swiper-container', {
       pagination: {
@@ -104,7 +108,87 @@ $(document).ready(function(){
       },
     });
 
-});
+});*/
+
+$(document).ready(function(){
+
+    var galleryThumbs = new Swiper('.videoSales-video-slider1 .slider-thumbs', {
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      touchRatio: 0.2,
+      slideToClickedSlide: true,
+      spaceBetween: 10,
+    });
+
+   var galleryTop = new Swiper('.videoSales-video-slider1 .slider-top', {
+      effect: 'fade',
+    });
+
+    galleryTop.controller.control = galleryThumbs;
+    galleryThumbs.controller.control = galleryTop;
+
+
+})
+
+$(document).ready(function(){
+
+    var galleryThumbs = new Swiper('.videoSales-video-slider2 .slider-thumbs', {
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      touchRatio: 0.2,
+      slideToClickedSlide: true,
+      spaceBetween: 10,
+    });
+
+   var galleryTop = new Swiper('.videoSales-video-slider2 .slider-top', {
+      effect: 'fade',
+    });
+
+    galleryTop.controller.control = galleryThumbs;
+    galleryThumbs.controller.control = galleryTop;
+
+
+})
+
+$(document).ready(function(){
+
+    var galleryThumbs = new Swiper('.videoSales-video-slider3 .slider-thumbs', {
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      touchRatio: 0.2,
+      slideToClickedSlide: true,
+      spaceBetween: 10,
+    });
+
+   var galleryTop = new Swiper('.videoSales-video-slider3 .slider-top', {
+      effect: 'fade',
+    });
+
+    galleryTop.controller.control = galleryThumbs;
+    galleryThumbs.controller.control = galleryTop;
+
+
+})
+
+$(document).ready(function(){
+
+    var galleryThumbs = new Swiper('.videoSales-video-slider4 .slider-thumbs', {
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      touchRatio: 0.2,
+      slideToClickedSlide: true,
+      spaceBetween: 10,
+    });
+
+   var galleryTop = new Swiper('.videoSales-video-slider4 .slider-top', {
+      effect: 'fade',
+    });
+
+    galleryTop.controller.control = galleryThumbs;
+    galleryThumbs.controller.control = galleryTop;
+
+
+})
 
 
 

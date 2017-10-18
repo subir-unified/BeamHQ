@@ -526,7 +526,9 @@ a{
 .section-tab .nav a:focus{
 	color: #b2e0f7;
 }
-
+.section-tab.less-mrgn .nav a{
+	margin: 0 35px;
+}
 .pr-sections{
 	max-width: 950px;
 	margin: auto;
@@ -573,6 +575,11 @@ a{
 .pr-img-01{
 	max-width: 220px;
 }
+.pr-sections.real-est .img-wrap img{
+	display: inline-block;
+	max-height: 300px;
+}
+
 
 /* Pricing */
 

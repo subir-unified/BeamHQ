@@ -1417,7 +1417,86 @@ a{
 	margin-bottom: 40px;
 }
 
-
+.contact-wrap{
+	padding: 50px 0;
+}
+.contact-form h3,
+.reach-us h3{
+	margin: 0 0 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.contact-form .form-group{
+	margin-bottom: 20px;
+}
+.contact-form .control-label{
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #a7a7a7;
+	letter-spacing: 2px;
+	display: block;
+	margin-bottom: 8px;
+}
+.form-control{
+	border-radius: 0;
+	box-shadow: none;
+	min-height: 40px;
+}
+.reach-us{
+	margin-left: 50px;
+}
+.reach-us .map-wrap{
+	border: 5px solid #fff;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+.contact-col{
+	margin: 30px 0 0;
+	padding: 0;
+	list-style: none;
+}
+.contact-col > li{
+	float: left;
+	width: 30%;
+	margin-right: 3.33%;
+	position: relative;
+	min-height: 130px;
+	border-left: 1px solid #f2f2f2;
+	overflow: hidden;
+}
+.contact-col > li:last-child{
+	border-right: none;
+	padding-right: 0;
+	margin-right: 0;
+}
+.contact-col > li .inr-cont{
+	padding: 20px;
+	position: relative;
+	z-index: 2;
+}
+.contact-col > li .fa{
+	color: #656565;
+	opacity: 0.1;
+	font-size: 80px;
+	position: absolute;
+	left: -7px;
+	top: 50%;
+	margin-top: -40px;
+	z-index: 1;
+}
+.contact-col > li .fa.fa-map-marker{
+	font-size: 90px;
+	margin-top: -45px;
+}
+.contact-col > li .fa.fa-mobile{
+	font-size: 100px;
+}
+.contact-col > li a{
+	color: #75c7f0 !important;
+}
+.contact-col > li h4{
+	text-transform: uppercase;
+}
 
 
 

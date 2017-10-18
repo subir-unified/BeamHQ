@@ -610,11 +610,12 @@ a{
 	background: #fff;
 	box-shadow: 0 0 20px rgba(0,0,0,0.1);
 	border: 1px solid #e6e6e6;
-	min-height: 655px;
+	min-height: 572px;
 	position: relative;
 }
 .pr-table-wrap .pr-box h3,
 .pr-table-wrap .pr-info h3{
+	color: #75c7f0;
 	text-transform: uppercase;
 	margin: 0 0 10px;
 }

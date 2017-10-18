@@ -71,6 +71,7 @@ a{
 	font-size: 12px;
 	font-weight: 900;
 	text-transform: uppercase;
+	letter-spacing: 1px;
 	color: #333;
 	background: none !important;
 }
@@ -455,7 +456,8 @@ a{
 	margin-top: 20px;
 }
 .foo-video .vid-row{
-	height: 130px;
+	max-width: 300px;
+	height: 150px;
 	margin-bottom: 10px;
 }
 .foo-video .vid-row:last-child{
@@ -501,8 +503,8 @@ a{
 	font-weight: 900;
 	text-decoration: none !important;
 	padding: 0 10px;
-	margin: 0 20px;
-	letter-spacing: 1px;
+	margin: 0 60px;
+	letter-spacing: 2px;
 }
 .section-tab .nav a:hover,
 .section-tab .nav a.active,
@@ -980,7 +982,12 @@ a{
 .solutionTop-wrap h2{ margin-top: 0; margin-bottom: 0; font-size: 36px;color: #a5d9f5;}
 .solutionTop-wrap p{color: #a2a5a9; font-weight: 400; font-size: 19px; line-height: 32px; }
 .mediumItalic{font-weight: 500; font-style: italic;}
- 
+ .solutionTop-wrap .video-wrap{
+ 	max-width: 800px;
+	margin: 50px auto 0;
+	background: #000;
+	box-shadow: 0 0 30px rgba(0,0,0,0.1);
+ }
 
  .counter-wrap{padding-top: 50px; padding-bottom: 50px; background-color:#c7eaf6;}
  .counter-wrap .heading{margin-bottom: 30px; text-align: center;}
@@ -1091,7 +1098,8 @@ a{
 .text-banner h2{font-weight: 500; font-size: 35px; color: #333333; margin: 0 0 20px;}
 .text-banner p{font-weight: 400; font-size: 18px; color: #333333; margin: 0;}
 
-.videoBlock-wrap{margin: 50px 0;}
+.videoBlock-wrap{margin-bottom: 50px;}
+.videoBlock-wrap h2{margin-bottom: 30px;}
 .videoBlock{margin: 0 0 20px;}
 
 .videoBlock-text-wrap{border-color: #e8e8e8; border-style: solid; border-width:0 1px 1px 1px; padding: 20px 150px 20px 15px; position: relative;}
@@ -1402,7 +1410,12 @@ a{
   margin-left: 0.5em;
 }
 
-
+.aboutus-wrap{
+	padding: 50px 0;
+}
+.aboutus-wrap .about-heading{
+	margin-bottom: 40px;
+}
 
 
 

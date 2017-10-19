@@ -169,6 +169,41 @@ a{
 	color: #fff !important;
 }
 
+.site-header .fix-width .dropdown-menu{
+	border-top: 3px solid #75c7f0;
+	margin-top: 10px;
+}
+.site-header .fix-width .dropdown-menu:after{
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 15px solid #75c7f0;
+	content: "";
+	position: absolute;
+	top: -16px;
+	left: 50%;
+	margin-left: -40px;
+}
+.site-header .fix-width .dropdown-item{
+	display: block;
+	color: #333;
+	text-decoration: none !important;
+	padding: 10px 20px;
+	font-size: 12px;
+	border-bottom: 1px solid #e3e3e3;
+	letter-spacing: 1px;
+}
+.site-header .fix-width .dropdown-item:last-child{
+	border-bottom: none;
+}
+.site-header .fix-width .dropdown-item:hover{
+	color: #75c7f0;
+}
+
+
+
+
 .banner-section{
 	position: relative;
 	height: 650px;

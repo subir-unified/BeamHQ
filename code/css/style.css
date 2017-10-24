@@ -1584,13 +1584,128 @@ a{
 	text-transform: uppercase;
 }
 
+/* Pricing Table */
 
+.price-table-wrap {
+  text-align: left;
+  color: #989A8F;
+}
 
+.price-table-wrap .table {
+  background-color: #ffffff;
+  width: 100%;
+  margin-top: 50px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+  margin-bottom: 5px;
+}
+.price-table-wrap ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.price-table-wrap ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  border-left: 1px solid #DDDCD8;
+  min-height: 420px;
+  position: relative;
+  transition: all ease-in-out 300ms;
+}
+.price-table-wrap ul li:hover{
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	z-index: 1;
+}
+.price-table-wrap ul li:first-child{
+	border-left: none;
+}
+.price-table-wrap .top {
+  background-color: #F5F5F5;
+  height: 75px;
+}
+.price-table-wrap .top h1 {
+	padding-top: 20px;
+	margin: 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
 
+.price-table-wrap .circle {
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background: #B4C7D2;
+	margin: 10px auto 0;
+	padding-top: 25px;
+	line-height: 20px;
+}
+.price-table-wrap .circle small{
+	display: block;
+	font-size: 12px;
+}
+.price-table-wrap .bottom {
+  margin-top: 80px;
+}
+.price-table-wrap .bottom p {
+  font-size: 13px;
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+.price-table-wrap .bottom p span {
+  font-weight: bold;
+}
 
+.price-table-wrap .sign {
+  margin-top: 30px;
+}
+.price-table-wrap .sign .button {
+	display: inline-block;
+	border: 1px solid #989A8F;
+	padding: 10px 40px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	color: #989A8F;
+	font-size: 14px;
+	text-decoration: none;
+	vertical-align: middle;
+	font-size: 17px;
+	transition: all ease-in-out 200ms;
+}
+.price-table-wrap .sign .button:hover{
+	background: #00aeef;
+	color: #fff;
+}
 
-
-
+.compare-price{
+	display: none;
+}
+.compare-price > ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.compare-price > ul > li{
+	width: 25%;
+	float: left;
+}
+.pr-table-wrap .compare-price .pr-box{
+	padding: 0;
+	min-height: 50px;
+	border: none;
+}
+.compare-price .pr-box .pr-packs > ul > li > span{
+	position: relative;
+	transition: all cubic-bezier(.77,0,.18,1) 500ms;
+}
+.compare-price .pr-box .pr-packs > ul > li:hover > span{
+	opacity: 0;
+}
 
 
 

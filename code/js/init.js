@@ -210,7 +210,12 @@ $(document).ready(function(){
 
 });
 
-
+$(document).on('click', '.cmp-btn', function(e){
+  e.preventDefault();
+  var text = $(this).text() == 'Compare' ? 'Close' : 'Compare';
+  $('.cmp-btn').text(text);
+  $('.compare-price').slideToggle();
+});
 
 
 

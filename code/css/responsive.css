@@ -255,6 +255,24 @@
 	.col-block .inc-info ul li{
 		width: 100%;
 	}
+	.videoSales-slider-thumbs .img-wrap{
+		max-width: 45px;
+	}
+	.videoSales-slider-thumbs .img-wrap img{
+		max-height: 45px;
+	}
+	.videoSales-slider-thumbs .text-wrap{
+		font-size: 9px;
+	}
+	.swiper-button-next, .swiper-button-prev{
+		transform: scale(0.6);
+	}
+	.swiper-button-next.swiper-button-black{
+		right: -5px;
+	}
+	.swiper-button-prev.swiper-button-black{
+		left: -5px;
+	}
 }
 
 

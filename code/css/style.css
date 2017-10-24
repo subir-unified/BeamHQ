@@ -191,6 +191,7 @@ a{
 	text-decoration: none !important;
 	padding: 10px 20px;
 	font-size: 12px;
+	text-transform: uppercase;
 	border-bottom: 1px solid #e3e3e3;
 	letter-spacing: 1px;
 }
@@ -553,7 +554,7 @@ a{
 	font-weight: 900;
 	text-decoration: none !important;
 	padding: 0 10px;
-	margin: 0 60px;
+	margin: 0 45px;
 	letter-spacing: 2px;
 }
 .section-tab .nav a:hover,

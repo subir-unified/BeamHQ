@@ -43,7 +43,20 @@
 	.contact-col > li .inr-cont{
 		padding: 20px 0 20px 20px;
 	}
-
+	.price-table-wrap .table{
+		background: none;
+		border: none;
+		box-shadow: none;
+	}
+	.price-table-wrap ul li{
+		box-shadow: 0 0 30px rgba(0,0,0,0.1);
+		border: 1px solid rgba(0,0,0,0.15) !important;
+		width: 50%;
+		margin-bottom: 15px;
+	}
+	.compare-price > ul > li{
+		width: 50%;
+	}
 }
 
 @media only screen and (max-width:767px){
@@ -222,6 +235,9 @@
 	.banner-txt-wrap .txt-inner h2{
 		font-size: 25px;
 	}
+	.inner-page .banner-txt-wrap .pr-txt h1{
+		font-size: 30px;
+	}
 	.sponsor-section .logos-row .logo-wrap{
 		width: 50%;
 	}
@@ -272,6 +288,13 @@
 	}
 	.swiper-button-prev.swiper-button-black{
 		left: -5px;
+	}
+	.price-table-wrap ul li{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.compare-price > ul > li{
+		width: 100%;
 	}
 }
 

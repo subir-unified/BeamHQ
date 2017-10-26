@@ -671,15 +671,16 @@ a{
 .pr-box .pr-packs > ul > li{
 	position: relative;
 	padding: 10px 15px;
+	border: 1px solid transparent;
 	border-bottom: 1px solid #e6e6e6;
 	transition: all ease-in-out 200ms;
 	overflow: hidden;
 }
-.pr-box .pr-packs > ul > li:last-child{
-	border: none;
-}
 .pr-box .pr-packs > ul > li:hover{
-	background: #f9f9f9;
+	position: relative;
+	z-index: 1;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border: 1px solid #75c7f0;
 }
 .pr-box .pr-packs span{
 	color: #9b9b9b;
@@ -1585,7 +1586,7 @@ a{
   margin-top: 50px;
   box-shadow: 0 0 30px rgba(0,0,0,0.1);
   border: 1px solid rgba(0,0,0,0.15);
-  margin-bottom: 5px;
+  margin-bottom: 25px;
 }
 .price-table-wrap ul{
 	padding: 0;
@@ -1607,6 +1608,12 @@ a{
 }
 .price-table-wrap ul li:first-child{
 	border-left: none;
+}
+.special{
+    transform: scale(1.1);
+    z-index: 9;
+    border: 1px solid !important;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 .price-table-wrap .top {
   color: #fff;

@@ -694,7 +694,7 @@ a{
 	font-size: 18px;
 	font-weight: 700;
 	color: #75c7f0;
-	transform: translate3d(-80px, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
 .action-pack{
 	position: absolute;
@@ -1598,7 +1598,7 @@ a{
   width: 25%;
   text-align: center;
   border-left: 1px solid #DDDCD8;
-  min-height: 420px;
+  min-height: 500px;
   position: relative;
   transition: all ease-in-out 300ms;
 }
@@ -1610,21 +1610,24 @@ a{
 	border-left: none;
 }
 .special{
-    transform: scale(1.1);
+	background: #fff;
+    transform: scale(1.07);
     z-index: 9;
     border: 1px solid !important;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 .price-table-wrap .top {
-  color: #fff;
+  color: #333;
   height: 75px;
+  border-bottom: 1px solid #DDDCD8;
 }
 .price-table-wrap .top h1 {
-	padding-top: 20px;
+	padding-top: 16px;
 	margin: 0;
 	font-size: 20px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+	font-weight: 300;
+	text-transform: lowercase;
+	letter-spacing: 6px;
 }
 
 .price-table-wrap .circle {
@@ -1632,31 +1635,34 @@ a{
 	height: 80px;
 	border-radius: 100%;
 	font-size: 20px;
-	color: #fff;
+	color: #333;
 	text-align: center;
-	background: rgba(0,0,0,0.6);
+	background: #ccc;
 	margin: 10px auto 0;
-	padding-top: 25px;
-	line-height: 20px;
+	line-height: 80px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-.price-table-wrap .circle small{
-	display: block;
-	font-size: 12px;
 }
 .price-table-wrap .bottom {
   margin-top: 80px;
 }
-.price-table-wrap .bottom p {
+.price-table-wrap .pack{
+	margin-top: 20px;
+}
+.price-table-wrap .bottom p,
+.price-table-wrap .pack p {
   font-size: 13px;
-  padding: 10px;
+  padding: 4px;
   margin: 0;
-  border-bottom: 1px solid #f2f2f2;
+  letter-spacing: 2px;
 }
-.price-table-wrap .bottom p span {
-  font-weight: bold;
+.price-table-wrap .bottom p strong,
+.price-table-wrap .pack p strong{
+	color: #333;
 }
-
+.price-table-wrap .bottom p a,
+.price-table-wrap .pack p a{
+	color: #00aeef;
+}
 .price-table-wrap .sign {
   margin-top: 30px;
 }

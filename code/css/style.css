@@ -202,9 +202,6 @@ a{
 	color: #75c7f0;
 }
 
-
-
-
 .banner-section{
 	position: relative;
 	height: 650px;
@@ -226,7 +223,7 @@ a{
 	object-position: center top;
 }
 .banner-section .banner-media:after{
-	background: rgba(0,0,0,0.3);
+	/*background: rgba(0,0,0,0.3);*/
 	z-index: 2;
 	content: "";
 }
@@ -330,7 +327,10 @@ a{
 }
 
 .video-section{
-	margin: 50px 0;	
+	margin: 100px 0 50px;	
+}
+.video-section h3{
+	margin-bottom: 40px;
 }
 .video-section .container{
 	padding-bottom: 50px;

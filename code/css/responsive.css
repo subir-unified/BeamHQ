@@ -57,6 +57,20 @@
 	.compare-price > ul > li{
 		width: 50%;
 	}
+	.feature_section.graphic_left, 
+	.feature_section.graphic_right{
+		display: block;
+	}
+	.feature_section.graphic_left .graphic_contain, 
+	.feature_section.graphic_right .graphic_contain{
+		width: 100%;
+	}
+	.feature_section.graphic_left .graphic_contain img,
+	.feature_section.graphic_right .graphic_contain img{
+		max-width: 100%;
+		width: auto;
+		float: none;
+	}
 }
 
 @media only screen and (max-width:767px){

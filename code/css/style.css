@@ -334,7 +334,7 @@ a{
 }
 .video-section .container{
 	padding-bottom: 50px;
-	border-bottom: 2px solid #f5f6f6;
+	/*border-bottom: 2px solid #f5f6f6;*/
 }
 .video-section .video-wrap{
 	width: 800px;
@@ -1763,7 +1763,10 @@ a{
     border-radius: 6px;
 	box-shadow: -10px 5px 30px rgba(0,0,0,0.25);
 }
-
+.sec-heading{
+	margin: 0 0 40px;
+	font-weight: 700;
+}
 
 
 

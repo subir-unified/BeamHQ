@@ -1625,7 +1625,7 @@ a{
   text-align: center;
   margin: 0 .5%;
   border: 1px solid #e1e5ea;
-  min-height: 400px;
+  min-height: 510px;
   position: relative;
   transition: all ease-in-out 300ms;
 }

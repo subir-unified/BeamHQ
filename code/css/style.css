@@ -1847,14 +1847,14 @@ a{
 }
 .feature_section.graphic_left .graphic_contain img {
     float: right;
-    width: 250%;
+    width: 170%;
     max-width: 70em;
     border-radius: 6px;
 	box-shadow: 10px 5px 30px rgba(0,0,0,0.2);
 }
 .feature_section.graphic_right .graphic_contain img {
     float: left;
-    width: 250%;
+    width: 170%;
     max-width: 70em;
     border-radius: 6px;
 	box-shadow: -10px 5px 30px rgba(0,0,0,0.25);

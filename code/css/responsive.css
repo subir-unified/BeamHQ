@@ -71,6 +71,9 @@
 		width: auto;
 		float: none;
 	}
+	.feature_section .content{
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width:767px){
@@ -270,6 +273,7 @@
 	}
 	.gal-list > ul > li{
 		margin: 15px 0 0;
+		width: 100%;
 	}
 	.gal-list > ul > li > a{
 		width: 100%;

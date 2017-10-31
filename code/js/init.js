@@ -212,7 +212,7 @@ $(document).ready(function(){
 
 $(document).on('click', '.cmp-btn', function(e){
   e.preventDefault();
-  var text = $(this).text() == 'Compare' ? 'Close' : 'Compare';
+  var text = $(this).text() == 'View Pack' ? 'Close' : 'View Pack';
   $('.cmp-btn').text(text);
   $('.compare-price').slideToggle();
 });

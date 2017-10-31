@@ -555,7 +555,7 @@ a{
 	font-weight: 900;
 	text-decoration: none !important;
 	padding: 0 10px;
-	margin: 0 45px;
+	margin: 0 25px;
 	letter-spacing: 2px;
 }
 .section-tab .nav a:hover,
@@ -1133,12 +1133,12 @@ a{
 .pricingBox-holder .btn-holder a{    padding: 12px 25px;
     color: #333;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 700;
     border: 1px solid #ccc;
     box-shadow: none;
     border-radius: 5px;
-    line-height: 10px;}
+}
     .pricingBox-holder .btn-holder a:hover{background-color: #eaeaea;}
     .banner-section.text-banner{ background-color: #edf8fb; }
 
@@ -1581,12 +1581,13 @@ a{
 }
 
 .price-table-wrap .table {
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
   width: 100%;
-  margin-top: 50px;
-  box-shadow: 0 0 30px rgba(0,0,0,0.1);
-  border: 1px solid rgba(0,0,0,0.15);
+  margin-top: 90px;
+  /*box-shadow: 0 0 30px rgba(0,0,0,0.1);
+  border: 1px solid rgba(0,0,0,0.15);*/
   margin-bottom: 25px;
+  color: #333;
 }
 .price-table-wrap ul{
 	padding: 0;
@@ -1595,43 +1596,70 @@ a{
 }
 .price-table-wrap ul li {
   float: left;
-  width: 25%;
+  width: 24%;
   text-align: center;
-  border-left: 1px solid #DDDCD8;
-  min-height: 500px;
+  margin: 0 .5%;
+  border: 1px solid #e1e5ea;
+  min-height: 400px;
   position: relative;
   transition: all ease-in-out 300ms;
 }
 .price-table-wrap ul li:hover{
-	box-shadow: 0 0 20px rgba(0,0,0,0.1);
-	z-index: 1;
+	/*box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	z-index: 1;*/
 }
 .price-table-wrap ul li:first-child{
-	border-left: none;
+	/*border-left: none;*/
+}
+.price-table-wrap h4{
+	margin: 20px 0;
 }
 .special{
-	background: #fff;
+	background: #e8f1fc;
+	/*background: #fff;
     transform: scale(1.07);
     z-index: 9;
     border: 1px solid !important;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);*/
+}
+.special:before{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -50px;
+	background: #fff578;
+	color: #000;
+	font-size: 14px;
+	padding: 10px;
+	content: "Recommended";
+	opacity: .7;
+}
+.price-table-wrap .special .top{
+	background: #00aeef;
+	color: #fff;
+}
+.price-table-wrap .special .sign .button{
+	background: #00aeef;
+	border-color: #00aeef;
+	color: #fff;
 }
 .price-table-wrap .top {
   color: #333;
   height: 75px;
-  border-bottom: 1px solid #DDDCD8;
+  border-bottom: 1px solid #e1e5ea;
+  background: #e9f3ff;
+  margin-bottom: 30px;
 }
 .price-table-wrap .top h1 {
-	padding-top: 16px;
+	padding-top: 22px;
 	margin: 0;
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 300;
-	text-transform: lowercase;
-	letter-spacing: 6px;
+	letter-spacing: 3px;
 }
 
 .price-table-wrap .circle {
-	width: 80px;
+	/*width: 80px;
 	height: 80px;
 	border-radius: 100%;
 	font-size: 20px;
@@ -1640,10 +1668,19 @@ a{
 	background: #ccc;
 	margin: 10px auto 0;
 	line-height: 80px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);*/
+	font-size: 40px;
+	text-align: center;
+	margin: 20px 0;
+	color: #000;
+}
+.price-table-wrap .circle small{
+	font-size: 16px;
+	letter-spacing: 3px;
+	opacity: .5;
 }
 .price-table-wrap .bottom {
-  margin-top: 80px;
+  /*margin-top: 80px;*/
 }
 .price-table-wrap .pack{
 	margin-top: 20px;
@@ -1664,7 +1701,10 @@ a{
 	color: #00aeef;
 }
 .price-table-wrap .sign {
-  margin-top: 30px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 30px;
 }
 .price-table-wrap .sign .button {
 	display: inline-block;
@@ -1685,6 +1725,37 @@ a{
 	color: #fff;
 }
 
+.feature-listing{
+	margin-top: 15px;
+}
+.feature-listing ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.feature-listing > ul > li{
+	width: 23%;
+	margin: 0 1%;
+	float: left;
+}
+.feature-listing > ul > li > ul > li{
+	margin: 5px 0;
+	padding-left: 15px;
+	position: relative;
+}
+.feature-listing > ul > li > ul > li:before{
+	width: 7px;
+	height: 7px;
+	background: #00aeef;
+	border-radius: 100%;
+	position: absolute;
+	top: 6px;
+	left: 0;
+	content: "";
+}
+.feature-listing a{
+	color: #00aeef;
+}
 .compare-price{
 	display: none;
 }
@@ -1767,7 +1838,9 @@ a{
 	margin: 0 0 40px;
 	font-weight: 700;
 }
-
+.feature_section .content{
+	width: 40%;
+}
 
 
 

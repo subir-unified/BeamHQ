@@ -10,15 +10,40 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Lota Grotesque';
+    src: url('../fonts/LotaGrotesque-Light.eot');
+    src: url('../fonts/LotaGrotesque-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LotaGrotesque-Light.woff2') format('woff2'),
+        url('../fonts/LotaGrotesque-Light.woff') format('woff'),
+        url('../fonts/LotaGrotesque-Light.ttf') format('truetype'),
+        url('../fonts/LotaGrotesque-Light.svg#LotaGrotesque-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lota Grotesque Bold';
+    src: url('../fonts/LotaGrotesque-SemiBold.eot');
+    src: url('../fonts/LotaGrotesque-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LotaGrotesque-SemiBold.woff2') format('woff2'),
+        url('../fonts/LotaGrotesque-SemiBold.woff') format('woff'),
+        url('../fonts/LotaGrotesque-SemiBold.ttf') format('truetype'),
+        url('../fonts/LotaGrotesque-SemiBold.svg#LotaGrotesque-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
 
 body{
-	font-family: Roboto, "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+	/*font-family: Roboto, "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;*/
+	font-family: 'Lota Grotesque';
 	color: #333;
 }
 a{
 	transition: all ease-in-out 200ms;
 }
-
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+	font-family: 'Lota Grotesque Bold';
+}
 .btn{
 	border-radius: 0;
 	transition: all ease-in-out 200ms;
@@ -27,7 +52,7 @@ a{
 	background: #75c7f0;
 	border-color: #75c7f0;
 	font-size: 18px;
-	font-weight: 700;
+	font-family: 'Lota Grotesque Bold';
 	text-transform: uppercase;
 }
 .btn-primary:hover{
@@ -69,7 +94,7 @@ a{
 }
 .site-header .navbar-nav > li > a{
 	font-size: 12px;
-	font-weight: 900;
+	font-family: 'Lota Grotesque Bold';
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #333;
@@ -258,7 +283,7 @@ a{
 	box-shadow: none;
 	min-height: 40px;
 	font-size: 18px;
-	font-weight: 700;
+	font-family: 'Lota Grotesque Bold';
 	color: #fff;
 	width: 350px;
 }
@@ -285,7 +310,7 @@ a{
 	height: 400px;
 }
 .inner-page .banner-txt-wrap .txt-inner{
-	padding-left: 160px;
+	/*padding-left: 160px;*/
 	margin: 0;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 }
@@ -552,10 +577,10 @@ a{
 	background: none !important;
 	text-transform: uppercase;
 	color: #333;
-	font-weight: 900;
+	font-family: 'Lota Grotesque Bold';
 	text-decoration: none !important;
 	padding: 0 10px;
-	margin: 0 25px;
+	margin: 0 20px;
 	letter-spacing: 2px;
 }
 .section-tab .nav a:hover,
@@ -692,7 +717,7 @@ a{
 }
 .pr-box .pr-packs .price{
 	font-size: 18px;
-	font-weight: 700;
+	font-family: 'Lota Grotesque Bold';
 	color: #75c7f0;
 	transform: translate3d(0, 0, 0);
 }
@@ -1067,7 +1092,7 @@ a{
 .videoSales-slider-thumbs .img-wrap img{width: 100%;}
 .videoSales-slider-thumbs .text-wrap{    max-width: 120px;
     text-align: center;
-    margin: 0 auto; font-weight: 700; color: #333; text-transform: uppercase; }
+    margin: 0 auto; font-family: 'Lota Grotesque Bold'; color: #333; text-transform: uppercase; }
 .videoSales-slider-thumbs .swiper-slide{padding-bottom: 25px; position: relative;}
 .videoSales-slider-thumbs .swiper-slide.swiper-slide-active:after{ content:''; background-color: #c7eaf6;
  width: 10px; height: 10px; border-radius: 100%; left: 0; right: 0; margin-right: auto; margin-left: auto; bottom: 0; position: absolute;  }
@@ -1113,7 +1138,7 @@ a{
 
 .pricingBox-icon{margin-bottom: 10px;}
  .pricingBox-icon img{max-height: 60px;}
- .pricingBox-text{color: #333; font-weight: 700; font-size: 13px;}
+ .pricingBox-text{color: #333; font-family: 'Lota Grotesque Bold'; font-size: 13px;}
 
 /*  .pricingBox-holder ul li:nth-of-type(1){border-bottom: 1px solid #CCC; border-right:1px solid transparent;}
   .pricingBox-holder ul li:nth-of-type(2){border-bottom: 1px solid #CCC; border-right:1px solid transparent;}
@@ -1134,7 +1159,7 @@ a{
     color: #333;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 700;
+    font-family: 'Lota Grotesque Bold';
     border: 1px solid #ccc;
     box-shadow: none;
     border-radius: 5px;
@@ -1142,8 +1167,8 @@ a{
     .pricingBox-holder .btn-holder a:hover{background-color: #eaeaea;}
     .banner-section.text-banner{ background-color: #edf8fb; }
 
-.text-banner h1{font-weight: 700; font-size: 55px; color: #333333; margin: 0;}
-.text-banner h2{font-weight: 500; font-size: 35px; color: #333333; margin: 0 0 20px;}
+.text-banner h1{font-family: 'Lota Grotesque Bold'; font-size: 55px; color: #333333; margin: 0;}
+.text-banner h2{font-family: 'Lota Grotesque Bold'; font-size: 35px; color: #333333; margin: 0 0 20px;}
 .text-banner p{font-weight: 400; font-size: 18px; color: #333333; margin: 0;}
 
 .videoBlock-wrap{margin-bottom: 50px;}
@@ -1836,7 +1861,7 @@ a{
 }
 .sec-heading{
 	margin: 0 0 40px;
-	font-weight: 700;
+	font-family: 'Lota Grotesque Bold';
 }
 .feature_section .content{
 	width: 40%;

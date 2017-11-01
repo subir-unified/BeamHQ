@@ -60,16 +60,23 @@
 	.feature_section.graphic_left, 
 	.feature_section.graphic_right{
 		display: block;
+		padding-top: 250px;
+		position: relative;
 	}
 	.feature_section.graphic_left .graphic_contain, 
 	.feature_section.graphic_right .graphic_contain{
 		width: 100%;
+		position: absolute;
+		height: 230px;
+		top: 0;
 	}
 	.feature_section.graphic_left .graphic_contain img,
 	.feature_section.graphic_right .graphic_contain img{
 		max-width: 100%;
 		width: auto;
 		float: none;
+		height: 230px;
+		object-fit: cover;
 	}
 	.feature_section .content{
 		width: 100%;
@@ -85,6 +92,16 @@
 	.navbar-toggle .icon-bar{
 		background-color: #333;
 	}
+	.site-header .dropdown-menu{
+		position: relative;
+		width: 100%;
+		margin: 0 !important;
+		box-shadow: none;
+		float: none;
+		background: #f9f9f9;
+		border-radius: 0;
+		border: none;
+	}
 	.site-header .fix-width .dropdown-menu:after{
 		display: none;
 	}
@@ -94,11 +111,16 @@
 	.nav > li.dropdown:after{
 		position: absolute;
 	    content: "+";
-	    right: 5px;
-	    top: 10px;
+	    right: 0;
+	    top: 1px;
 	    font-size: 16px;
 	    font-weight: 300;
 	    color: #333;
+	    width: 38px;
+	    height: 38px;
+	    background: #fbfbfb;
+	    text-align: center;
+	    line-height: 38px;
 	}
 	.site-header .navbar-brand {
 		padding-left: 15px;
@@ -224,6 +246,13 @@
 	.solutionTop-wrap .video-wrap .wistia_embed{
 		height: 250px !important;
 	}
+	.banner-section.inner-page{
+		height: auto;
+		padding: 30px 0;
+	}
+	.banner-section .banner-txt-wrap{
+		position: static;
+	}
 }
 
 
@@ -263,6 +292,7 @@
 	}
 	.action-wrap .btn{
 		padding: 15px 30px;
+		margin: 10px;
 	}
 	.gal-heading{
 		margin: 30px 0;
@@ -313,6 +343,15 @@
 	}
 	.compare-price > ul > li{
 		width: 100%;
+	}
+	.price-table-wrap ul li.special{
+		margin-top: 40px;
+	}
+	.special:before{
+		top: -40px;
+	}
+	.pricingBox-holder ul li{
+		width: 33.33%;
 	}
 }
 

@@ -79,7 +79,7 @@ a{
 .site-header .navbar-brand{
     font-family: 'Lota Grotesque';
 	height: auto;
-	font-size: 50px;
+	font-size: 40px;
 	line-height: 50px;
 	color: #333;
 	margin-right: 30px;
@@ -257,6 +257,7 @@ a{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	object-position: top center;
 }
 .banner-section .banner-txt-wrap{
 	z-index: 3;
@@ -335,6 +336,9 @@ a{
 	height: 100px;
 	white-space: nowrap;
 	margin: 0 auto 30px;
+}
+.info-blocks .col-sm-3:nth-child(3) .info-block .icon-holder{
+	width: 130px;
 }
 .vert-mid{
 	display: inline-block;
@@ -620,13 +624,14 @@ a{
 	color: #a2a5a9;
 }
 .pr-sections .pr-txt h2{
-	font-size: 40px;
-	line-height: 50px;
+	font-size: 30px;
+	line-height: 40px;
 	margin-bottom: 25px;
 }
 .pr-sections .pr-txt p{
 	color: #818285;
-	line-height: 24px;
+	font-size: 16px;
+	line-height: 30px;
 }
 .pr-sections .pr-txt .btn{
 	color: #00aeef;
@@ -1139,7 +1144,8 @@ a{
 
     .pricingBox-holder ul{margin: 0; padding: 0; list-style: none;}
 
- .pricingBox-holder ul li{ padding: 30px 10px; text-align: center; float: left; width: 33.33%;}
+ .pricingBox-holder ul li{ padding: 10px; text-align: center; float: left; width: 25%; min-height: 150px;}
+ .pricingBox-content{padding: 0 20px;}
 
 .pricingBox-icon{margin-bottom: 10px;}
  .pricingBox-icon img{max-height: 60px;}
@@ -1176,11 +1182,16 @@ a{
 .text-banner h2{font-family: 'Lota Grotesque Bold'; font-size: 35px; color: #333333; margin: 0 0 20px;}
 .text-banner p{font-weight: 400; font-size: 18px; color: #333333; margin: 0;}
 
-.videoBlock-wrap{margin-bottom: 50px;}
+.videoBlock-wrap{margin-bottom: 50px; text-align: center;}
 .videoBlock-wrap h2{margin-bottom: 30px;}
+.videoBlock-wrap .col-sm-4{
+	display: inline-block;
+	float: none;
+	text-align: left;
+}
 .videoBlock{margin: 0 0 20px;}
 
-.videoBlock-text-wrap{border-color: #e8e8e8; border-style: solid; border-width:0 1px 1px 1px; padding: 20px 150px 20px 15px; position: relative;}
+.videoBlock-text-wrap{border-color: #e8e8e8; border-style: solid; border-width:0 1px 1px 1px; padding: 20px; position: relative;}
 .videoBlock-img-wrap{height: 275px; border-color: transparent; border-style: solid; border-width:1px 1px 0 1px;}
 .videoBlock-img-wrap img{width: 100%; height: 100%; object-fit: cover;}
 
@@ -1212,6 +1223,7 @@ a{
 .vs-wrapper{
 	position: relative;
 	margin-top: 70px;
+	margin-bottom: 50px;
 }
 .sidebar-filter{
 	width: 300px;
@@ -1869,9 +1881,14 @@ a{
 	font-family: 'Lota Grotesque Bold';
 }
 .feature_section .content{
-	width: 40%;
+	width: 50%;
 }
-
+.sales_desc{
+	max-width: 800px;
+	margin: auto;
+	margin-top: 40px;
+	text-align: center;
+}
 
 
 

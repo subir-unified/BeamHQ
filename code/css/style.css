@@ -624,7 +624,9 @@ a{
 	color: #a2a5a9;
 }
 .pr-sections .pr-txt h2{
+	font-family: 'Lota Grotesque';
 	font-size: 30px;
+	font-weight: 700;
 	line-height: 40px;
 	margin-bottom: 25px;
 }
@@ -1625,7 +1627,7 @@ a{
 .price-table-wrap .table {
   /*background-color: #ffffff;*/
   width: 100%;
-  margin-top: 90px;
+  margin-top: 70px;
   /*box-shadow: 0 0 30px rgba(0,0,0,0.1);
   border: 1px solid rgba(0,0,0,0.15);*/
   margin-bottom: 25px;
@@ -1642,7 +1644,7 @@ a{
   text-align: center;
   margin: 0 .5%;
   border: 1px solid #e1e5ea;
-  min-height: 510px;
+  min-height: 600px;
   position: relative;
   transition: all ease-in-out 300ms;
 }
@@ -1890,11 +1892,58 @@ a{
 	text-align: center;
 }
 
-
-
-
-
-
+.filter-col{
+	margin-top: 30px;
+}
+.custom-radio{
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	color: #333;
+	cursor: pointer;
+}
+.custom-radio input[type=radio]{
+	display: none;
+}
+.custom-radio span{
+	position: relative;
+	display: inline-block;
+	padding-left: 26px;
+}
+.custom-radio span:before{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: #dedede;
+	border-radius: 100%;
+	left: 0;
+	top: 0;
+	content: "";
+	box-shadow: 0 0 3px rgba(0,0,0,0.1) inset;
+}
+.custom-radio span:after{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background: #fff;
+	border-radius: 100%;
+	left: 5px;
+	top: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	content: "";
+	transform: scale(1.5);
+	opacity: 0;
+	transition: all ease-in-out 300ms;
+}
+.custom-radio input[type=radio]:checked ~  span:before{
+	background: #00aeef;
+}
+.custom-radio input[type=radio]:checked ~  span:after{
+	transform: scale(1);
+	opacity: 1;
+}
 
 
 

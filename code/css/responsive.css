@@ -250,7 +250,7 @@
 		height: auto;
 		padding: 30px 0;
 	}
-	.banner-section .banner-txt-wrap{
+	.banner-section.inner-page .banner-txt-wrap{
 		position: static;
 	}
 }

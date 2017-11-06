@@ -230,6 +230,7 @@ a{
 .banner-section{
 	position: relative;
 	height: 650px;
+	overflow: hidden;
 }
 .banner-section .banner-media,
 .banner-section .banner-txt-wrap,
@@ -625,7 +626,7 @@ a{
 }
 .pr-sections .pr-txt h2{
 	font-family: 'Lota Grotesque';
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: 700;
 	line-height: 40px;
 	margin-bottom: 25px;
@@ -634,6 +635,9 @@ a{
 	color: #818285;
 	font-size: 16px;
 	line-height: 30px;
+}
+.pr-sections .pr-txt ul{
+	padding-left: 15px;
 }
 .pr-sections .pr-txt .btn{
 	color: #00aeef;
@@ -1061,11 +1065,11 @@ a{
 .solutionTop-wrap{padding-bottom:50px; padding-top: 125px;} 
 .solutionTop-wrap .icon-img-wrap{padding-top: 40px; padding-bottom: 40px; width: 100px; margin: 0 auto;;}
 .solutionTop-wrap .icon-img-wrap img{width: 100%;}
-.solutionTop-wrap .solutionTop-inr-wrp{max-width: 625px; margin: 0 auto;}
+.solutionTop-wrap .solutionTop-inr-wrp{max-width: 700px; margin: 0 auto;}
 
 .solutionTop-wrap h1{ margin-top: 0; margin-bottom: 20px; font-size: 60px;color: #333333;line-height: 72px; }
 .solutionTop-wrap h2{ margin-top: 0; margin-bottom: 0; font-size: 36px;color: #a5d9f5;}
-.solutionTop-wrap p{color: #a2a5a9; font-weight: 400; font-size: 19px; line-height: 32px; }
+.solutionTop-wrap p{color: #000; font-weight: 400; font-size: 19px; line-height: 32px; }
 .mediumItalic{font-weight: 500; font-style: italic;}
  .solutionTop-wrap .video-wrap{
  	max-width: 800px;
@@ -1147,6 +1151,7 @@ a{
     .pricingBox-holder ul{margin: 0; padding: 0; list-style: none;}
 
  .pricingBox-holder ul li{ padding: 10px; text-align: center; float: left; width: 25%; min-height: 150px;}
+ .pricingBox-holder.colm-3 ul li{width: 33.33%;}
  .pricingBox-content{padding: 0 20px;}
 
 .pricingBox-icon{margin-bottom: 10px;}
@@ -1883,7 +1888,7 @@ a{
 	font-family: 'Lota Grotesque Bold';
 }
 .feature_section .content{
-	width: 50%;
+	width: 40%;
 }
 .sales_desc{
 	max-width: 800px;
